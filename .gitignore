@@ -1,0 +1,23 @@
+# Data — large raw/processed files are not tracked in git.
+# See README.md "Data" section for provenance and how to regenerate.
+/data/
+
+# Generated outputs (figures, trajectories) — regenerate via the notebooks.
+/output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Julia
+Manifest.toml
+
+# OS
+.DS_Store

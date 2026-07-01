@@ -1,0 +1,36 @@
+# Pinned to the versions used in the `climateenv` conda environment this
+# project was developed and run with (Python 3.11).
+
+# Core scientific stack
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+
+# NetCDF / geospatial data handling
+netCDF4==1.7.4
+cartopy==0.25.0
+shapely==2.1.2
+pyproj==3.7.2
+geopy==2.4.1
+
+# Topological data analysis
+# `cripser` also provides the `tcripser` module imported by the notebooks.
+cripser==0.0.32
+ripser==0.6.14
+persim==0.3.8
+
+# Plotting / visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.6.0
+ipywidgets==8.1.8
+pillow==12.1.1
+
+# Utilities
+tqdm==4.67.3
+jupyterlab==4.5.6
+
+# Only needed for notebook/08_video_frames.ipynb (not part of climateenv;
+# install separately if you need to render video frames).
+# opencv-python
