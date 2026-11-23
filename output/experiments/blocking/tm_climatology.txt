@@ -1,0 +1,87 @@
+2-D TM (Davini 2012) blocking-event frequency, 1979-2023, NCEP-NCAR R1 Z500
+
+DJF: max BE frequency 16.6% at 67.5N 162.5E
+    EA: sector max 14.5% at 57.5N 7.5E; sector-mean (40-75N) 5.3%
+    US: sector max 13.9% at 67.5N 147.5E; sector-mean (40-75N) 2.7%
+    PAC: sector max 16.6% at 67.5N 162.5E; sector-mean (40-75N) 4.2%
+    NAM: sector max 5.4% at 65.0N 297.5E; sector-mean (40-75N) 0.8%
+MAM: max BE frequency 17.2% at 57.5N 17.5E
+    EA: sector max 17.2% at 57.5N 17.5E; sector-mean (40-75N) 6.6%
+    US: sector max 10.3% at 67.5N 147.5E; sector-mean (40-75N) 2.3%
+    PAC: sector max 15.6% at 70.0N 202.5E; sector-mean (40-75N) 5.1%
+    NAM: sector max 8.0% at 62.5N 297.5E; sector-mean (40-75N) 2.2%
+JJA: max BE frequency 23.6% at 67.5N 210.0E
+    EA: sector max 13.7% at 62.5N 30.0E; sector-mean (40-75N) 4.4%
+    US: sector max 16.4% at 65.0N 135.0E; sector-mean (40-75N) 5.2%
+    PAC: sector max 23.6% at 67.5N 210.0E; sector-mean (40-75N) 6.5%
+    NAM: sector max 7.6% at 67.5N 240.0E; sector-mean (40-75N) 1.4%
+SON: max BE frequency 12.9% at 72.5N 180.0E
+    EA: sector max 11.7% at 72.5N 335.0E; sector-mean (40-75N) 4.7%
+    US: sector max 10.3% at 72.5N 147.5E; sector-mean (40-75N) 2.1%
+    PAC: sector max 12.9% at 72.5N 180.0E; sector-mean (40-75N) 2.7%
+    NAM: sector max 3.9% at 72.5N 297.5E; sector-mean (40-75N) 1.1%
+ANN: max BE frequency 15.0% at 70.0N 177.5E
+    EA: sector max 12.2% at 60.0N 20.0E; sector-mean (40-75N) 5.2%
+    US: sector max 11.9% at 67.5N 147.5E; sector-mean (40-75N) 3.1%
+    PAC: sector max 15.0% at 70.0N 177.5E; sector-mean (40-75N) 4.6%
+    NAM: sector max 4.7% at 65.0N 297.5E; sector-mean (40-75N) 1.4%
+
+Events (phi0 >= 40N, >= 5 d): 3180 in 45 yr = 70.7/yr, median duration 7 d, mean 8.7 d, 90th pct 15 d
+events per year by sector (rows) and onset season (cols):
+sector     DJF    MAM    JJA    SON   total
+EA        7.20   9.29   6.80   7.18   30.47
+US        2.69   3.02   5.11   2.69   13.51
+PAC       5.51   5.98   5.64   3.64   20.78
+NAM       0.73   2.31   1.62   1.24    5.91
+
+Case checks (BE gridpoints, phi0 >= 40, in the stated box):
+  Aug 2003 Europe 20W-40E: 2003-08-01   35 pts  lat 57.5-65.0  lon 20.0-40.0
+  Aug 2003 Europe 20W-40E: 2003-08-02   35 pts  lat 57.5-65.0  lon 20.0-40.0
+  Aug 2003 Europe 20W-40E: 2003-08-03   28 pts  lat 57.5-65.0  lon 25.0-40.0
+  Aug 2003 Europe 20W-40E: 2003-08-04   24 pts  lat 57.5-65.0  lon 27.5-40.0
+  Aug 2003 Europe 20W-40E: 2003-08-05    9 pts  lat 57.5-62.5  lon 35.0-40.0
+  Aug 2003 Europe 20W-40E: 2003-08-06    3 pts  lat 57.5-62.5  lon 40.0-40.0
+  Aug 2003 Europe 20W-40E: 2003-08-07  --
+  Aug 2003 Europe 20W-40E: 2003-08-08  --
+  Aug 2003 Europe 20W-40E: 2003-08-09  --
+  Aug 2003 Europe 20W-40E: 2003-08-10  --
+  Aug 2003 Europe 20W-40E: 2003-08-11  --
+  Aug 2003 Europe 20W-40E: 2003-08-12  --
+  Aug 2003 Europe 20W-40E: 2003-08-13  --
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-15   30 pts  lat 67.5-75.0  lon 22.5-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-16   30 pts  lat 67.5-75.0  lon 22.5-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-17   30 pts  lat 67.5-75.0  lon 22.5-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-18   72 pts  lat 50.0-75.0  lon 22.5-77.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-19   57 pts  lat 50.0-62.5  lon 50.0-77.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-20   75 pts  lat 50.0-65.0  lon 40.0-77.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-21   78 pts  lat 50.0-65.0  lon 40.0-77.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-22   85 pts  lat 50.0-65.0  lon 40.0-77.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-23   79 pts  lat 50.0-65.0  lon 40.0-75.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-24   53 pts  lat 55.0-65.0  lon 40.0-72.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-25   53 pts  lat 55.0-65.0  lon 40.0-72.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-26   50 pts  lat 55.0-65.0  lon 40.0-72.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-27  --
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-28   64 pts  lat 65.0-75.0  lon 35.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-29   80 pts  lat 65.0-75.0  lon 35.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-30  101 pts  lat 65.0-75.0  lon 35.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-01-31  112 pts  lat 65.0-75.0  lon 30.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-01  138 pts  lat 62.5-75.0  lon 20.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-02  155 pts  lat 57.5-75.0  lon 20.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-03  149 pts  lat 57.5-75.0  lon 20.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-04  142 pts  lat 55.0-75.0  lon 20.0-90.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-05  104 pts  lat 55.0-75.0  lon 20.0-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-06   91 pts  lat 55.0-70.0  lon 37.5-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-07   97 pts  lat 55.0-70.0  lon 32.5-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-08  117 pts  lat 55.0-72.5  lon 27.5-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-09   87 pts  lat 57.5-72.5  lon 20.0-72.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-10   96 pts  lat 57.5-72.5  lon 20.0-80.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-11  107 pts  lat 55.0-72.5  lon 20.0-82.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-12  106 pts  lat 55.0-72.5  lon 20.0-82.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-13   48 pts  lat 55.0-65.0  lon 20.0-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-14   39 pts  lat 55.0-62.5  lon 60.0-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-15   40 pts  lat 55.0-62.5  lon 60.0-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-16   90 pts  lat 52.5-67.5  lon 40.0-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-17   84 pts  lat 52.5-67.5  lon 40.0-85.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-18   73 pts  lat 52.5-67.5  lon 40.0-80.0
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-19   72 pts  lat 52.5-67.5  lon 40.0-77.5
+  Jan-Feb 2012 Eurasia 20-90E: 2012-02-20   72 pts  lat 52.5-67.5  lon 40.0-77.5

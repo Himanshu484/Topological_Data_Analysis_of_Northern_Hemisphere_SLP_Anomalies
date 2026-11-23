@@ -1,0 +1,61 @@
+== anticyclones: matched densities N(10 hPa) = 60123 (2.17/day), N(5 hPa) = 128183 (4.62/day)
+P  prominence (topological depth)          thr10  10.00 thr5   5.00 | J(P) 1.00 | 1-level: 1-day 51.2% mean 2.17 d, in>=3d 55.7%, excess link 44.5% | 2-level: 1-day 28.1% mean 3.13 in>=3d 72.0% >=5d 5161 | redund 0.0% | hgt>1.5km 13.4% heat-low 0.1% | stat>=10d 126 (3s)
+A  amplitude |extremum|                    thr10  18.24 thr5  13.86 | J(P) 0.32 | 1-level: 1-day 49.1% mean 2.23 d, in>=3d 57.0%, excess link 45.5% | 2-level: 1-day 26.2% mean 3.16 in>=3d 73.0% >=5d 5321 | redund 22.9% | hgt>1.5km 13.0% heat-low 0.0% | stat>=10d 138 (2s)
+AN amplitude + 1000 km suppression         thr10  16.48 thr5  11.80 | J(P) 0.43 | 1-level: 1-day 46.3% mean 2.46 d, in>=3d 62.9%, excess link 48.0% | 2-level: 1-day 23.1% mean 3.61 in>=3d 78.7% >=5d 6074 | redund 0.0% | hgt>1.5km 12.4% heat-low 0.0% | stat>=10d 129 (3s)
+PN prominence + 1000 km suppression        thr10  10.00 thr5   4.99 | J(P) 1.00 | 1-level: 1-day 51.2% mean 2.17 d, in>=3d 55.7%, excess link 44.5% | 2-level: 1-day 28.1% mean 3.13 in>=3d 72.0% >=5d 5183 | redund 0.0% | hgt>1.5km 13.3% heat-low 0.1% | stat>=10d 126 (3s)
+L  annulus depth (500-1000 km ring)        thr10   8.08 thr5   6.68 | J(P) 0.21 | 1-level: 1-day 59.2% mean 1.82 d, in>=3d 43.2%, excess link 27.5% | 2-level: 1-day 33.3% mean 2.68 in>=3d 62.1% >=5d 4345 | redund 15.2% | hgt>1.5km 38.1% heat-low 0.2% | stat>=10d 194 (2s)
+C  closed-contour depth (R <= 1200 km)     thr10   4.72 thr5   3.04 | J(P) 0.40 | 1-level: 1-day 62.1% mean 1.77 d, in>=3d 41.6%, excess link 32.0% | 2-level: 1-day 33.8% mean 2.72 in>=3d 63.3% >=5d 4557 | redund 0.0% | hgt>1.5km 26.9% heat-low 0.2% | stat>=10d 176 (3s)
+   single P   in>=3d minus P: +0.00 [+0.00, +0.00] pp
+   single A   in>=3d minus P: +1.25 [+0.41, +2.02] pp
+   single AN  in>=3d minus P: +7.15 [+6.44, +7.80] pp
+   single PN  in>=3d minus P: +0.00 [-0.01, +0.01] pp
+   single L   in>=3d minus P: -12.50 [-13.60, -11.51] pp
+   single C   in>=3d minus P: -14.15 [-14.91, -13.44] pp
+   two-level P   in>=3d minus P: +0.00 [+0.00, +0.00] pp
+   two-level A   in>=3d minus P: +1.03 [+0.31, +1.72] pp
+   two-level AN  in>=3d minus P: +6.69 [+6.12, +7.27] pp
+   two-level PN  in>=3d minus P: +0.03 [+0.01, +0.06] pp
+   two-level L   in>=3d minus P: -9.88 [-10.69, -9.08] pp
+   two-level C   in>=3d minus P: -8.65 [-9.27, -8.07] pp
+   P   in>=3d DJF 56.5% JJA 58.5%
+   A   in>=3d DJF 59.2% JJA 48.7%
+   AN  in>=3d DJF 64.3% JJA 56.5%
+   PN  in>=3d DJF 56.5% JJA 58.5%
+   L   in>=3d DJF 48.3% JJA 29.1%
+   C   in>=3d DJF 46.4% JJA 35.8%
+   curve tau  3 P   n 194271 1-day 52.3% in>=3d 56.9% excess 34.5%
+   curve tau  3 A   n 194271 1-day 48.6% in>=3d 58.2% excess 39.6%
+   curve tau  3 AN  n 194271 1-day 46.6% in>=3d 63.6% excess 39.6%
+   curve tau  3 PN  n 194271 1-day 52.3% in>=3d 57.0% excess 34.6%
+   curve tau  3 L   n 194271 1-day 54.6% in>=3d 51.8% excess 26.0%
+   curve tau  3 C   n 194271 1-day 55.6% in>=3d 53.2% excess 29.4%
+   curve tau  5 P   n 128183 1-day 52.5% in>=3d 55.6% excess 38.7%
+   curve tau  5 A   n 128183 1-day 49.1% in>=3d 57.6% excess 42.0%
+   curve tau  5 AN  n 128183 1-day 46.8% in>=3d 62.9% excess 43.3%
+   curve tau  5 PN  n 128183 1-day 52.5% in>=3d 55.6% excess 38.7%
+   curve tau  5 L   n 128183 1-day 56.7% in>=3d 48.5% excess 27.2%
+   curve tau  5 C   n 128183 1-day 57.9% in>=3d 48.8% excess 31.2%
+   curve tau  7 P   n 92566 1-day 52.1% in>=3d 55.3% excess 41.4%
+   curve tau  7 A   n 92566 1-day 48.7% in>=3d 57.4% excess 43.7%
+   curve tau  7 AN  n 92566 1-day 46.8% in>=3d 62.8% excess 45.6%
+   curve tau  7 PN  n 92566 1-day 52.1% in>=3d 55.3% excess 41.4%
+   curve tau  7 L   n 92566 1-day 58.0% in>=3d 46.3% excess 27.5%
+   curve tau  7 C   n 92566 1-day 59.7% in>=3d 45.4% excess 31.8%
+   curve tau 10 P   n 60123 1-day 51.2% in>=3d 55.7% excess 44.5%
+   curve tau 10 A   n 60123 1-day 49.1% in>=3d 57.0% excess 45.5%
+   curve tau 10 AN  n 60123 1-day 46.3% in>=3d 62.9% excess 48.0%
+   curve tau 10 PN  n 60123 1-day 51.2% in>=3d 55.7% excess 44.5%
+   curve tau 10 L   n 60123 1-day 59.2% in>=3d 43.2% excess 27.5%
+   curve tau 10 C   n 60123 1-day 62.1% in>=3d 41.6% excess 32.0%
+   curve tau 15 P   n 31407 1-day 48.6% in>=3d 57.3% excess 48.6%
+   curve tau 15 A   n 31407 1-day 48.4% in>=3d 56.8% excess 47.9%
+   curve tau 15 AN  n 31407 1-day 45.0% in>=3d 63.3% excess 51.1%
+   curve tau 15 PN  n 31407 1-day 48.6% in>=3d 57.3% excess 48.6%
+   curve tau 15 L   n 31407 1-day 61.2% in>=3d 38.7% excess 26.4%
+   curve tau 15 C   n 31407 1-day 64.2% in>=3d 36.5% excess 31.6%
+   curve tau 20 P   n 16327 1-day 46.8% in>=3d 58.6% excess 51.0%
+   curve tau 20 A   n 16327 1-day 47.4% in>=3d 56.4% excess 49.6%
+   curve tau 20 AN  n 16327 1-day 44.3% in>=3d 62.7% excess 53.0%
+   curve tau 20 PN  n 16327 1-day 46.8% in>=3d 58.6% excess 51.0%
+   curve tau 20 L   n 16327 1-day 63.6% in>=3d 33.9% excess 25.3%
+   curve tau 20 C   n 16327 1-day 66.8% in>=3d 31.7% excess 30.7%

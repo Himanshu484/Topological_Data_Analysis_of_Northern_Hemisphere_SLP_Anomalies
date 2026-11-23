@@ -1,0 +1,27 @@
+Each detector tuned separately per level on 1979-2000 (max CSI of that level); test 2001-2023 CSI.
+detector                                   sd thr sd CSI | gd thr gd CSI | ev thr ev CSI ev POD ev FAR
+T1 SLP depth                               |      3  0.324 |      3  0.158 |      3  0.214  0.304  0.581
+T1a SLP amplitude                          |      3  0.320 |      5  0.158 |      5  0.214  0.294  0.560
+Te1 SLP depth, Eulerian r=1500             |      3  0.369 |      3  0.175 |      3  0.219  0.364  0.646
+B1 SLP gridpoint                           |      6  0.417 |     10  0.185 |     12  0.232  0.360  0.605
+T1n SLP depth (seas-norm)                  |    0.3  0.316 |    0.3  0.156 |    0.3  0.212  0.294  0.566
+B1n SLP gridpoint (seas-norm)              |    0.8  0.427 |    1.2  0.199 |    1.2  0.266  0.432  0.590
+T2 Z500a depth                             |     30  0.427 |     30  0.251 |     30  0.321  0.605  0.594
+T2a Z500a amplitude                        |     30  0.435 |    100  0.262 |    100  0.339  0.609  0.566
+Te2 Z500a depth, Eulerian r=1500           |     30  0.431 |     40  0.259 |     60  0.293  0.530  0.604
+B2 Z500a gridpoint                         |    100  0.428 |    140  0.260 |    140  0.303  0.618  0.627
+T2n Z500a depth (seas-norm)                |    0.3  0.430 |    0.3  0.251 |    0.3  0.322  0.613  0.595
+B2n Z500a gridpoint (seas-norm)            |    1.2  0.446 |    1.4  0.268 |    1.6  0.335  0.603  0.570
+T2d40 Z500a depth + dipole(40)             |     30  0.296 |     30  0.197 |     30  0.256  0.339  0.489
+T2d80 Z500a depth + dipole(80)             |     30  0.226 |     30  0.160 |     30  0.202  0.236  0.417
+T3 Z500 cut-off high prominence            |      2  0.371 |      2  0.289 |      2  0.360  0.433  0.319
+Te3 Z500 cut-off high, Eulerian r=1500     |      2  0.384 |      2  0.293 |      2  0.359  0.450  0.362
+R2 DG anomaly-overlap index                |    0.9  0.369 |    0.9  0.255 |    0.9  0.334  0.441  0.419
+
+CSI difference A - B at per-level optima, test period, year-block bootstrap 95% CI:
+  T2 Z500a depth vs T2a Z500a amplitude: gd -0.011 [-0.015, -0.008]; ev -0.018 [-0.027, -0.011]
+  T2 Z500a depth vs B2 Z500a gridpoint: gd -0.009 [-0.020, +0.002]; ev +0.018 [-0.004, +0.038]
+  T2a Z500a amplitude vs B2 Z500a gridpoint: gd +0.002 [-0.009, +0.013]; ev +0.036 [+0.013, +0.057]
+  T3 Z500 cut-off high prominence vs B2 Z500a gridpoint: gd +0.029 [+0.017, +0.040]; ev +0.057 [+0.033, +0.078]
+  T3 Z500 cut-off high prominence vs T2a Z500a amplitude: gd +0.027 [+0.016, +0.037]; ev +0.021 [+0.001, +0.040]
+  T3 Z500 cut-off high prominence vs R2 DG anomaly-overlap index: gd +0.034 [+0.021, +0.046]; ev +0.026 [+0.006, +0.045]

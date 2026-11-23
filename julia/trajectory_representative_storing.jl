@@ -85,11 +85,12 @@ function process_representatives_by_years(years, data_type="sub",
     
     println("Processing $(data_type) data for years: $years")
     
-    # Load all data for specified years
-    all_data = read_slp_files_by_years(years, data_type, base_input_folder)
-    
-    # Process each year
+    # Process each year.  One year is loaded at a time: loading all 76 years up
+    # front holds ~3.3 GB of 172x172 matrices in memory at once, which is a
+    # needless peak on a 16 GB machine and buys nothing — each day is processed
+    # independently.
     for (year_idx, year) in enumerate(years)
+        all_data = read_slp_files_by_years([year], data_type, base_input_folder)
         if !(year in keys(all_data))
             println("Year $year: No data found - SKIPPED")
             continue
@@ -102,7 +103,24 @@ function process_representatives_by_years(years, data_type="sub",
         year_data = all_data[year]["data"]
         year_filenames = all_data[year]["filenames"]
         total_files = length(year_data)
-        
+
+        # Resume support: a (year, data_type) is already done when every output
+        # JSON exists AND is newer than the .npy it was computed from.  This
+        # makes a multi-hour regeneration restartable and makes it impossible to
+        # keep a result computed from a stale disc.
+        already_done = total_files > 0 && all(
+            begin
+                out = joinpath(year_output_dir, replace(fn, ".npy" => ".json"))
+                inp = joinpath(base_input_folder, string(year), fn)
+                isfile(out) && mtime(out) > mtime(inp)
+            end
+            for fn in year_filenames)
+        if already_done
+            println("Year $year ($(year_idx)/$(length(years))): up to date - SKIPPED")
+            all_data = nothing
+            continue
+        end
+
         print("Year $year ($(year_idx)/$(length(years))): ")
         
         # Process each file in this year
@@ -148,6 +166,8 @@ function process_representatives_by_years(years, data_type="sub",
         end
         
         println(" - COMPLETED ✓")
+        all_data = nothing
+        GC.gc()
     end
     
     println("All processing complete! Files saved to: $base_output_folder")
@@ -155,17 +175,24 @@ end
 
 # Usage examples:
 # Process 5 years of sublevel data
-years_to_process = collect(1948:2024)  # 1948, 1949, 1950, 1951, 1952
+# Usage:
+#   julia julia/trajectory_representative_storing.jl              # both filtrations
+#   julia julia/trajectory_representative_storing.jl sub          # one filtration
+#   julia julia/trajectory_representative_storing.jl sup 1948 2023
+# Running the two filtrations as two processes roughly halves the wall clock;
+# they write disjoint filenames (slp_sub_* / slp_sup_*) so they cannot collide.
 
-println("="^60)
-println("PROCESSING SUBLEVEL DATA")
-println("="^60)
-process_representatives_by_years(years_to_process, "sub")
+types_to_process = length(ARGS) >= 1 ? [ARGS[1]] : ["sub", "sup"]
+y0 = length(ARGS) >= 3 ? parse(Int, ARGS[2]) : 1948
+y1 = length(ARGS) >= 3 ? parse(Int, ARGS[3]) : 2023
+years_to_process = collect(y0:y1)
 
-println("\n" * "="^60)
-println("PROCESSING SUPERLEVEL DATA") 
-println("="^60)
-process_representatives_by_years(years_to_process, "sup")
+for dt in types_to_process
+    println("="^60)
+    println("PROCESSING ", uppercase(dt) == "SUB" ? "SUBLEVEL" : "SUPERLEVEL", " DATA")
+    println("="^60)
+    process_representatives_by_years(years_to_process, dt)
+end
 
 println("\n" * "="^60)
 println("ALL PROCESSING COMPLETED!")

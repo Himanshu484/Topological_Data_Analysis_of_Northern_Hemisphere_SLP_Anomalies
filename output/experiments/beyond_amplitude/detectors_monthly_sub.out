@@ -1,0 +1,7 @@
+== anticyclones: month-by-month matched density
+  P   single: 1-day 51.2% in>=3d 55.7% (vs P +0.00 [+0.00,+0.00]) DJF 56.5 JJA 58.5 | two-level: 1-day 28.1% in>=3d 72.0% (vs P +0.00 [+0.00,+0.00]) >=5d 5161 | hgt>1.5 km 13.4%
+  A   single: 1-day 48.2% in>=3d 56.4% (vs P +0.65 [-0.12,+1.32]) DJF 59.4 JJA 54.6 | two-level: 1-day 23.9% in>=3d 73.9% (vs P +1.90 [+1.33,+2.43]) >=5d 5428 | hgt>1.5 km 11.5%
+  AN  single: 1-day 45.0% in>=3d 63.6% (vs P +7.86 [+7.12,+8.53]) DJF 65.1 JJA 63.5 | two-level: 1-day 20.3% in>=3d 80.3% (vs P +8.26 [+7.68,+8.79]) >=5d 6290 | hgt>1.5 km 11.2%
+  PN  single: 1-day 51.2% in>=3d 55.7% (vs P +0.00 [-0.01,+0.01]) DJF 56.5 JJA 58.5 | two-level: 1-day 28.1% in>=3d 72.0% (vs P +0.04 [+0.01,+0.06]) >=5d 5182 | hgt>1.5 km 13.3%
+  L   single: 1-day 60.7% in>=3d 39.8% (vs P -15.94 [-17.07,-14.93]) DJF 44.8 JJA 34.1 | two-level: 1-day 34.3% in>=3d 59.6% (vs P -12.40 [-13.21,-11.64]) >=5d 4096 | hgt>1.5 km 36.9%
+  C   single: 1-day 62.0% in>=3d 41.4% (vs P -14.37 [-15.16,-13.64]) DJF 45.7 JJA 37.3 | two-level: 1-day 33.5% in>=3d 63.3% (vs P -8.72 [-9.32,-8.14]) >=5d 4529 | hgt>1.5 km 26.4%

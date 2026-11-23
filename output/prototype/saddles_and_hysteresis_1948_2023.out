@@ -1,0 +1,18 @@
+
+== 1-cyclones 1948-2023, depth >= 10 hPa: 119818 features, 63281 nearest-neighbour links
+   extremum-to-saddle distance: median 3254 km
+   daily move of the extremum: median 524 km (90th pct 883)
+   daily move of the saddle:   median 3614 km (90th pct 9555); > 2000 km in 67.9% of links
+   parent is the disc rim: 61.5%; |saddle value| < 2 hPa: 62.6%; median depth/|extremum| 0.94; corr(depth, |extremum|) 0.910
+   one threshold (10 hPa):  tracks 56537, 1-day 48.2%, mean 2.12 d, >= 5 d 4434, max 23 d; >= 10 hPa snapshots in multi-day tracks 77.2%
+   hysteresis 5/10 hPa:   tracks 53874, 1-day 28.9%, mean 2.96 d, >= 5 d 9832, max 34 d; >= 10 hPa snapshots in multi-day tracks 87.0%
+   hysteresis 3/10 hPa:   tracks 53048, 1-day 24.2%, mean 3.43 d, >= 5 d 13360, max 34 d; >= 10 hPa snapshots in multi-day tracks 89.3%
+
+== 1-anticyclones 1948-2023, depth >= 10 hPa: 60123 features, 32447 nearest-neighbour links
+   extremum-to-saddle distance: median 5035 km
+   daily move of the extremum: median 405 km (90th pct 839)
+   daily move of the saddle:   median 4764 km (90th pct 12088); > 2000 km in 72.3% of links
+   parent is the disc rim: 69.6%; |saddle value| < 2 hPa: 65.4%; median depth/|extremum| 0.93; corr(depth, |extremum|) 0.910
+   one threshold (10 hPa):  tracks 27676, 1-day 51.2%, mean 2.17 d, >= 5 d 2519, max 26 d; >= 10 hPa snapshots in multi-day tracks 76.4%
+   hysteresis 5/10 hPa:   tracks 26169, 1-day 28.1%, mean 3.13 d, >= 5 d 5161, max 29 d; >= 10 hPa snapshots in multi-day tracks 87.8%
+   hysteresis 3/10 hPa:   tracks 25716, 1-day 22.5%, mean 3.69 d, >= 5 d 7010, max 38 d; >= 10 hPa snapshots in multi-day tracks 90.4%

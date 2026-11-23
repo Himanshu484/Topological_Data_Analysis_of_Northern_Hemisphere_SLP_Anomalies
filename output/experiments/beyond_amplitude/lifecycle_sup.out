@@ -1,0 +1,24 @@
+== cyclones: amplitude low threshold matched to depth 5 hPa: 12.58 hPa
+     remnants that lost the own criterion: {'n': 9122, 'pct_nested': 100.0, 'median_depth': 1.7, 'median_amp': 16.8, 'median_parent_km': 1420.4, 'median_parent_depth': 19.2, 'median_dist_to_last_km': 452.9}
+  P track ends: 53869
+     detected, not linked                          actual   0.1%  chance  12.3%
+     lost own criterion, other kept                actual  16.9%  chance   4.1%
+     both below                                    actual  35.4%  chance  23.9%
+     no extremum within 800 km                     actual  47.6%  chance  59.7%
+     remnant is in a continuing track (absorbed)   actual   0.1%  chance   6.2%
+     last day: median depth 13.0, amp 16.7, depth/amp 0.90, nested 52.8%
+     from genesis: 0: d 10.7 a 14.5 r 0.88 n 51%  1: d 15.6 a 18.1 r 0.94 n 38%  2: d 16.3 a 18.7 r 0.94 n 36%  3: d 15.8 a 18.2 r 0.94 n 39%
+     to lysis: -3: d 16.2 a 18.7 r 0.94 n 38%  -2: d 16.3 a 18.6 r 0.94 n 38%  -1: d 15.0 a 17.6 r 0.93 n 43%  0: d 10.1 a 14.5 r 0.85 n 58%
+     mid-life: d 16.1 a 18.4 r 0.94 n 38%
+     remnants that lost the own criterion: {'n': 4985, 'pct_nested': 61.2, 'median_depth': 8.1, 'median_amp': 10.7, 'median_parent_km': 3258.9, 'median_parent_depth': 19.1, 'median_dist_to_last_km': 408.8}
+  A track ends: 56977
+     detected, not linked                          actual  10.2%  chance  14.2%
+     lost own criterion, other kept                actual   8.7%  chance   3.4%
+     both below                                    actual  24.8%  chance  21.4%
+     no extremum within 800 km                     actual  56.3%  chance  61.0%
+     remnant is in a continuing track (absorbed)   actual   9.7%  chance   7.6%
+     last day: median depth 7.6, amp 19.0, depth/amp 0.42, nested 76.6%
+     from genesis: 0: d 10.0 a 18.1 r 0.58 n 70%  1: d 17.7 a 22.7 r 0.89 n 53%  2: d 18.3 a 23.1 r 0.90 n 52%  3: d 17.0 a 22.3 r 0.87 n 56%
+     to lysis: -3: d 17.6 a 22.9 r 0.89 n 54%  -2: d 17.6 a 22.9 r 0.88 n 54%  -1: d 15.1 a 21.4 r 0.79 n 61%  0: d 6.4 a 17.0 r 0.38 n 80%
+     mid-life: d 17.5 a 23.0 r 0.88 n 54%
+  lifetimes of the same systems: {"nP": 53874, "nA": 56984, "pct_P_tracks_with_A": 67.385, "pct_A_tracks_with_P": 70.776, "matched": 36303, "medP": 3.0, "medA": 3.0, "meanP": 3.2, "meanA": 3.694, "pct_P_longer": 22.574, "pct_A_longer": 37.947, "pct_equal": 39.479, "corr_log": 0.643, "pct_detections_P_in_A": 62.442, "pct_detections_A_in_P": 61.933, "meanL_Ponly_tracks": 2.411, "meanL_Aonly_tracks": 1.716}

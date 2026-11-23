@@ -1,15 +1,25 @@
-# Data — large raw/processed files are not tracked in git.
-# See README.md "Data" section for provenance and how to regenerate.
-/data/
+# Data: raw downloads and derived feature files are not tracked (about 17 GB; see data/README.md).
+# The small diagnostics of each surrogate (diag_*.json) are tracked, because the tables read them.
+/data/raw/
+/data/processed_data/*
+!/data/processed_data/experiments/
+/data/processed_data/experiments/*/*
+!/data/processed_data/experiments/*/diag_*.json
 
-# Generated outputs (figures, trajectories) — regenerate via the notebooks.
-/output/
+# Results: the summaries in output/ are tracked (every table of the paper is built from them);
+# per-realisation caches and regenerated intermediates are not.
+/output/**/cache/
+/output/paper/null_tables/
 
-# Python
+# Tables and figures written when no manuscript folder is present (scripts/paper/paths.py)
+/paper_outputs/
+
+# Build products
 __pycache__/
 *.py[cod]
-*.egg-info/
-.ipynb_checkpoints/
+*.so
+.pytest_cache/
+logs/
 
 # Environments
 .venv/

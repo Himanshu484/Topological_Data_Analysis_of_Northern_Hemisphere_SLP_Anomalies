@@ -1,0 +1,116 @@
+Reference: 2-D TM (Davini 2012) blocking events, phi0 >= 40N. Tuning 1979-2000 on sector-day CSI; scores 2001-2023.
+
+detector                                      thr | sd POD   FAR   CSI  bias | gd POD   FAR   CSI | ev POD   FAR   CSI  n_det
+T1 SLP depth                                    3 |  0.411 0.395 0.324  0.68 |  0.204 0.590 0.158 |  0.304 0.581 0.214   1513
+T1a SLP amplitude                               3 |  0.401 0.389 0.320  0.66 |  0.202 0.577 0.159 |  0.301 0.569 0.216   1450
+Te1 SLP depth, Eulerian r=1500                  3 |  0.494 0.407 0.369  0.83 |  0.235 0.592 0.175 |  0.364 0.646 0.219   1587
+B1 SLP gridpoint                                6 |  0.698 0.492 0.417  1.37 |  0.311 0.729 0.169 |  0.532 0.789 0.178   3159
+T1n SLP depth (seas-norm)                     0.3 |  0.396 0.388 0.316  0.65 |  0.198 0.579 0.156 |  0.294 0.566 0.212   1429
+B1n SLP gridpoint (seas-norm)                 0.8 |  0.685 0.469 0.427  1.29 |  0.328 0.695 0.188 |  0.545 0.742 0.213   2906
+T2 Z500a depth                                 30 |  0.653 0.448 0.427  1.18 |  0.405 0.603 0.251 |  0.605 0.594 0.321   2308
+T2a Z500a amplitude                            30 |  0.686 0.457 0.435  1.26 |  0.422 0.616 0.252 |  0.638 0.609 0.320   2473
+Te2 Z500a depth, Eulerian r=1500               30 |  0.652 0.441 0.431  1.17 |  0.401 0.586 0.256 |  0.591 0.670 0.269   1534
+B2 Z500a gridpoint                            100 |  0.737 0.495 0.428  1.46 |  0.437 0.679 0.227 |  0.674 0.757 0.217   2406
+T2n Z500a depth (seas-norm)                   0.3 |  0.661 0.448 0.430  1.20 |  0.407 0.606 0.251 |  0.613 0.595 0.322   2332
+B2n Z500a gridpoint (seas-norm)               1.2 |  0.739 0.470 0.446  1.39 |  0.449 0.656 0.242 |  0.681 0.725 0.244   2402
+T2d40 Z500a depth + dipole(40)                 30 |  0.366 0.392 0.296  0.60 |  0.249 0.515 0.197 |  0.339 0.489 0.256   1271
+T2d80 Z500a depth + dipole(80)                 30 |  0.257 0.347 0.226  0.39 |  0.184 0.451 0.160 |  0.236 0.417 0.202    851
+T3 Z500 cut-off high prominence                 2 |  0.429 0.267 0.371  0.59 |  0.344 0.356 0.289 |  0.433 0.319 0.360   1253
+Te3 Z500 cut-off high, Eulerian r=1500          2 |  0.451 0.280 0.384  0.63 |  0.353 0.366 0.293 |  0.450 0.362 0.359   1128
+R2 DG anomaly-overlap index                   0.9 |  0.452 0.332 0.369  0.68 |  0.317 0.434 0.255 |  0.441 0.419 0.334    987
+[TM index scored against DG reference]            |  0.498 0.353 0.391  0.77 |  0.305 0.438 0.247 |  0.648 0.404 0.451   1590
+(reference events in test period: 987 DG; 1590 TM)
+
+Sector-day CSI by sector (test period):
+detector                                       EA     US    PAC    NAM
+T1 SLP depth                                0.468  0.250  0.282  0.112
+T1a SLP amplitude                           0.462  0.250  0.277  0.110
+Te1 SLP depth, Eulerian r=1500              0.533  0.294  0.326  0.121
+B1 SLP gridpoint                            0.610  0.356  0.387  0.176
+T1n SLP depth (seas-norm)                   0.460  0.243  0.276  0.103
+B1n SLP gridpoint (seas-norm)               0.610  0.372  0.396  0.171
+T2 Z500a depth                              0.561  0.390  0.422  0.226
+T2a Z500a amplitude                         0.573  0.396  0.440  0.225
+Te2 Z500a depth, Eulerian r=1500            0.584  0.371  0.426  0.225
+B2 Z500a gridpoint                          0.609  0.353  0.430  0.213
+T2n Z500a depth (seas-norm)                 0.562  0.399  0.423  0.230
+B2n Z500a gridpoint (seas-norm)             0.615  0.385  0.438  0.231
+T2d40 Z500a depth + dipole(40)              0.392  0.249  0.270  0.183
+T2d80 Z500a depth + dipole(80)              0.307  0.165  0.203  0.160
+T3 Z500 cut-off high prominence             0.451  0.341  0.350  0.229
+Te3 Z500 cut-off high, Eulerian r=1500      0.477  0.339  0.371  0.211
+R2 DG anomaly-overlap index                 0.500  0.318  0.306  0.238
+
+Sector-day CSI by season (test period):
+detector                                      DJF    MAM    JJA    SON
+T1 SLP depth                                0.362  0.321  0.290  0.332
+T1a SLP amplitude                           0.361  0.312  0.284  0.331
+Te1 SLP depth, Eulerian r=1500              0.400  0.375  0.340  0.366
+B1 SLP gridpoint                            0.391  0.465  0.444  0.362
+T1n SLP depth (seas-norm)                   0.338  0.315  0.290  0.330
+B1n SLP gridpoint (seas-norm)               0.423  0.468  0.449  0.361
+T2 Z500a depth                              0.426  0.459  0.452  0.364
+T2a Z500a amplitude                         0.430  0.475  0.465  0.361
+Te2 Z500a depth, Eulerian r=1500            0.429  0.479  0.432  0.379
+B2 Z500a gridpoint                          0.391  0.488  0.471  0.354
+T2n Z500a depth (seas-norm)                 0.424  0.464  0.461  0.364
+B2n Z500a gridpoint (seas-norm)             0.429  0.512  0.471  0.366
+T2d40 Z500a depth + dipole(40)              0.224  0.286  0.346  0.310
+T2d80 Z500a depth + dipole(80)              0.167  0.212  0.256  0.266
+T3 Z500 cut-off high prominence             0.358  0.385  0.411  0.307
+Te3 Z500 cut-off high, Eulerian r=1500      0.371  0.403  0.409  0.334
+R2 DG anomaly-overlap index                 0.368  0.378  0.360  0.372
+
+Event CSI by sector (test period):
+detector                                       EA     US    PAC    NAM
+T1 SLP depth                                0.259  0.236  0.160  0.135
+T1a SLP amplitude                           0.266  0.234  0.157  0.138
+Te1 SLP depth, Eulerian r=1500              0.296  0.223  0.165  0.105
+B1 SLP gridpoint                            0.241  0.191  0.139  0.103
+T1n SLP depth (seas-norm)                   0.260  0.237  0.154  0.132
+B1n SLP gridpoint (seas-norm)               0.298  0.220  0.155  0.125
+T2 Z500a depth                              0.397  0.292  0.292  0.239
+T2a Z500a amplitude                         0.399  0.286  0.296  0.231
+Te2 Z500a depth, Eulerian r=1500            0.378  0.191  0.245  0.191
+B2 Z500a gridpoint                          0.316  0.187  0.184  0.127
+T2n Z500a depth (seas-norm)                 0.397  0.293  0.294  0.239
+B2n Z500a gridpoint (seas-norm)             0.327  0.252  0.189  0.157
+T2d40 Z500a depth + dipole(40)              0.303  0.251  0.205  0.231
+T2d80 Z500a depth + dipole(80)              0.239  0.179  0.160  0.210
+T3 Z500 cut-off high prominence             0.349  0.383  0.372  0.314
+Te3 Z500 cut-off high, Eulerian r=1500      0.366  0.349  0.369  0.296
+R2 DG anomaly-overlap index                 0.419  0.336  0.246  0.270
+
+Event CSI by onset season (test period):
+detector                                      DJF    MAM    JJA    SON
+T1 SLP depth                                0.255  0.187  0.186  0.231
+T1a SLP amplitude                           0.260  0.189  0.185  0.235
+Te1 SLP depth, Eulerian r=1500              0.258  0.210  0.198  0.203
+B1 SLP gridpoint                            0.122  0.192  0.246  0.128
+T1n SLP depth (seas-norm)                   0.251  0.185  0.186  0.235
+B1n SLP gridpoint (seas-norm)               0.210  0.255  0.221  0.156
+T2 Z500a depth                              0.355  0.362  0.302  0.267
+T2a Z500a amplitude                         0.360  0.373  0.293  0.257
+Te2 Z500a depth, Eulerian r=1500            0.288  0.335  0.220  0.224
+B2 Z500a gridpoint                          0.166  0.262  0.263  0.156
+T2n Z500a depth (seas-norm)                 0.362  0.364  0.302  0.265
+B2n Z500a gridpoint (seas-norm)             0.251  0.305  0.232  0.182
+T2d40 Z500a depth + dipole(40)              0.172  0.265  0.298  0.260
+T2d80 Z500a depth + dipole(80)              0.131  0.183  0.246  0.241
+T3 Z500 cut-off high prominence             0.352  0.361  0.383  0.333
+Te3 Z500 cut-off high, Eulerian r=1500      0.356  0.370  0.371  0.324
+R2 DG anomaly-overlap index                 0.340  0.352  0.314  0.329
+
+CSI difference A - B, test period, year-block bootstrap 95% CI (1000 draws):
+  T1 SLP depth  vs  B1 SLP gridpoint:  sd -0.092 [-0.110, -0.077];  gd -0.012 [-0.022, +0.000];  ev +0.036 [+0.020, +0.052]
+  T1 SLP depth  vs  T1a SLP amplitude:  sd +0.005 [+0.002, +0.008];  gd -0.001 [-0.002, -0.000];  ev -0.002 [-0.003, -0.000]
+  T1n SLP depth (seas-norm)  vs  B1n SLP gridpoint (seas-norm):  sd -0.111 [-0.125, -0.097];  gd -0.032 [-0.042, -0.020];  ev -0.000 [-0.020, +0.023]
+  T2 Z500a depth  vs  B2 Z500a gridpoint:  sd -0.001 [-0.014, +0.012];  gd +0.024 [+0.013, +0.035];  ev +0.104 [+0.080, +0.130]
+  T2 Z500a depth  vs  T2a Z500a amplitude:  sd -0.008 [-0.012, -0.005];  gd -0.001 [-0.004, +0.002];  ev +0.001 [-0.006, +0.009]
+  T2n Z500a depth (seas-norm)  vs  B2n Z500a gridpoint (seas-norm):  sd -0.016 [-0.029, -0.003];  gd +0.008 [-0.002, +0.018];  ev +0.079 [+0.058, +0.101]
+  T3 Z500 cut-off high prominence  vs  B2 Z500a gridpoint:  sd -0.057 [-0.073, -0.041];  gd +0.062 [+0.048, +0.075];  ev +0.143 [+0.119, +0.167]
+  T3 Z500 cut-off high prominence  vs  T2 Z500a depth:  sd -0.056 [-0.068, -0.045];  gd +0.038 [+0.028, +0.048];  ev +0.039 [+0.021, +0.055]
+  T2d40 Z500a depth + dipole(40)  vs  T2 Z500a depth:  sd -0.131 [-0.148, -0.116];  gd -0.054 [-0.063, -0.045];  ev -0.065 [-0.081, -0.049]
+  Te2 Z500a depth, Eulerian r=1500  vs  B2 Z500a gridpoint:  sd +0.002 [-0.011, +0.016];  gd +0.029 [+0.018, +0.039];  ev +0.051 [+0.034, +0.070]
+  Te1 SLP depth, Eulerian r=1500  vs  B1 SLP gridpoint:  sd -0.048 [-0.063, -0.033];  gd +0.006 [-0.003, +0.017];  ev +0.041 [+0.028, +0.054]
+  T3 Z500 cut-off high prominence  vs  R2 DG anomaly-overlap index:  sd +0.002 [-0.011, +0.015];  gd +0.034 [+0.021, +0.046];  ev +0.026 [+0.006, +0.045]
